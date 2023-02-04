@@ -28,7 +28,6 @@ int main() {
     std::string title = "Title";
     std::string desc = "Description";
     std::string color = "16711680"; // Decimal color
-    std::string founderid = "854037287716651108";
     std::string request_body = "{\"username\": \"github.com/Fontesie\",\"content\": null,\"embeds\": [{\"title\": \"" + title + "\",\"description\": \"" + desc + "\",\"footer\": {\"text\": \"github.com/fontesie\"},\"color\": " + color + " }], \"attachments\": []}";
 
     BOOL bResults = WinHttpSendRequest(hRequest,
